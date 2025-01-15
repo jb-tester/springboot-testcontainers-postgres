@@ -5,6 +5,7 @@ actually the cases when the local connection properties from src or test `applic
 or testcontainer configured via `@Container`+`@DynamicProperties` are treated correctly;
 but the testcontainers configured by `@ServiceConnection` beans are not treated properly
 
+https://youtrack.jetbrains.com/issue/IDEA-365780/Spring-Debugger-datasource-connection-properties-are-not-detected-properly-for-testcontainers-in-some-cases
 
 1. the main application class `com.example.springboottestcontainerspostgres.SpringbootTestcontainersPostgresApplication`:
     should use the datasource properties from src `application.properties` - OK
