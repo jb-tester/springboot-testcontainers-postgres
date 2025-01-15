@@ -1,0 +1,16 @@
+###
+POST http://localhost:8080/persons/init
+
+
+
+###
+GET http://localhost:8080/persons/all
+
+
+
+###
+PUT http://localhost:8080/persons/update/18/adult
+
+
+
+###
